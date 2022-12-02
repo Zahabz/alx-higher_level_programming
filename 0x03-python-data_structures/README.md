@@ -25,3 +25,6 @@ The following are the objectives of this project:
 
 * **2. Replacing an element in a list**
   * [2-replace_in_list.py](./2-replace_in_list.py): Uses the prototype function `def replace_in_list(my_list, idx, element)` to replace an element in a list
+
+* **3. Printing a list of integers in reverse**
+  * [3-print_reversed_list_integer.py](./3-print_reversed_list_integer.py): Uses the prototype function `def print_reversed_list_integer(my_list=[])` to reverse a list
