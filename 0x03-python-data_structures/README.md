@@ -15,7 +15,7 @@ The following are the objectives of this project:
 * What is the `del` statement and how to use it
 
 
-<h2 align='centre'>Tasks</h2> :page_with_a_curl:
+<h2 align='centre'>Tasks involved :page_with_curl:</h2> :page_with_curl:
 
 * **0. Printing a list of integers**
-  - [0-print_list_integer.py](./0-print_list_integer.py): Involves using the prototype function `def print_list_integer(my_list[])`to return a list that one iterate through and print each integer.
+  * [0-print_list_integer.py](./0-print_list_integer.py): Involves using the prototype function `def print_list_integer(my_list[])`to return a list that one iterate through and print each integer.
