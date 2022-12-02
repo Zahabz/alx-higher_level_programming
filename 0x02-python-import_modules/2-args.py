@@ -15,4 +15,4 @@ if __name__ == '__main__':
         print('{} arguments:'.format(arg_no))
 
     for i in range(arg_no):
-        print('{} : {}'.format(i + 1, sys.argv[i + 1]))
+        print('{}: {}'.format(i + 1, sys.argv[i + 1]))
