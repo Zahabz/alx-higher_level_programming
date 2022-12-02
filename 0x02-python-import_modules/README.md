@@ -17,3 +17,6 @@ This project involves the creation and importation of modules containing functio
 
 * **4. Infinite addition**
     * [3-infinite_add.py](./3-infinite_add.py): This program prints out the result of the addition of all arguments in the command line
+
+* **5. Using the dir() method to print all modules in a package**
+   * [4-hidden_discovery.py](./4-hidden_discovery.py): Excludes all modules starting with `__`
