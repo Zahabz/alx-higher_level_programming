@@ -22,3 +22,6 @@ The following are the objectives of this project:
 
 * **1. Access to an element in a list**
   * [1-element_at.py](./1-element_at.py): Uses the prototype function `def element_at(my_list, idx)` to accessing an element in a list using its index 
+
+* **2. Replacing an element in a list**
+  * [2-replace_in_list.py](./2-replace_in_list.py): Uses the prototype function `def replace_in_list(my_list, idx, element)` to replace an element in a list
