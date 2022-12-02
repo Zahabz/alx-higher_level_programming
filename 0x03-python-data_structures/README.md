@@ -19,3 +19,5 @@ The following are the objectives of this project:
 
 * **0. Printing a list of integers**
   * [0-print_list_integer.py](./0-print_list_integer.py): Involves using the prototype function `def print_list_integer(my_list[])`to return a list that one iterate through and print each integer.
+
+  * [1-element_at.py](./1-element_at.py): Uses the prototype function `def element_at(my_list, idx)` to accessing an element in a list using its index 
