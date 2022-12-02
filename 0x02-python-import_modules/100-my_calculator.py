@@ -10,8 +10,7 @@ if __name__ == '__main__':
 
     if arg_no != 3:
         print('Usage: ./100-calculator.py <a> <operator> <b>')
-
-        sys.exit(1)
+        sys.exit('1')
 
     a = int(sys.argv[1])
     b = int(sys.argv[3])
@@ -19,8 +18,7 @@ if __name__ == '__main__':
 
     if sys.argv[2] not in operators.keys():
         print('Unknown operator. Available operator: +, -, * and /')
-
-        sys.exit(1)
+        sys.exit('1')
 
     else:
         print(f'{a} {sys.argv[2]} {b} = {operators[sys.argv[2]](a,b)}')
