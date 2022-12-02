@@ -9,4 +9,8 @@ This project involves the creation and importation of modules containing functio
 
 * **2. Calculator!! :triangular_ruler:**    
     * [1-calculator.py](./1-calculator.py): This python file imports all functions from a module, in this case the mul, add, div and sub functions. Therefore, this python file takes the form of a calculator.
-    * Output: `<a value> <operator> <b value> = <operation(a, b) value>` followed by a new line    
+    * Output: `<a value> <operator> <b value> = <operation(a, b) value>` followed by a new line.
+
+* **3. Script Dynamicism**
+    * [2-args.py](./2-args.py): This program prints out the number and list of its command line arguments using `sys.argv`. 
+    * Output: The number of arguments followed by `argument` if one or `arguments` if more than one
