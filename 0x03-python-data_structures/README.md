@@ -1,6 +1,6 @@
 <h1 align='centre'>0x03-python-data_structures</h1>
 
-## Learning Objectives
+## Learning Objectives :dart:
 
 The following are the objectives of this project:
 * What are lists and how to use them
