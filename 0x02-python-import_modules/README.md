@@ -23,3 +23,6 @@ This project involves the creation and importation of modules containing functio
 
 * **6. importation of a variable `a`**
    * [5-variable_load.py](./5-variable_load.py): Imports a variable `a` from the file [variable_load_5.py](./variable_load_5.py) and prints its value
+
+* **7. Build my own calculator**
+   * [100-my_calculator.py](./100-my_calculator.py): If run successfully it prints the result in the following structure; `<a> <operator> <b> <result>`
