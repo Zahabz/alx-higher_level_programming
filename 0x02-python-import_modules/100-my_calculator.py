@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     a = int(sys.argv[1])
     b = int(sys.argv[3])
-    operators = {"+": add(a,b), "-": sub(a,b), "/": div(a,b), "*": mul(a,b)}
+    operators = {"+": add, "-": sub, "*": mul, "/": div}
 
     if sys.argv[2] not in operators.keys():
         print('Unknown operator. Available operator: +. - , * and /')
@@ -23,6 +23,6 @@ if __name__ == '__main__':
         sys.exit(1)
 
     else:
-        print(f'{a} {sys.argv[2]} {b} = {operators[sys.argv[2]]}')
+        print(f'{a} {sys.argv[2]} {b} = {operators[sys.argv[2]](a,b)}')
 
 
