@@ -20,3 +20,6 @@ This project involves the creation and importation of modules containing functio
 
 * **5. Using the dir() method to print all modules in a package**
    * [4-hidden_discovery.py](./4-hidden_discovery.py): Excludes all modules starting with `__`
+
+* **6. importation of a variable `a`**
+   * [5-variable_load.py](./5-variable_load.py): Imports a variable `a` from the file `variable_load_5.py` and prints its value
