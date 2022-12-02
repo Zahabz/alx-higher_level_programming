@@ -14,3 +14,6 @@ This project involves the creation and importation of modules containing functio
 * **3. Script Dynamicism**
     * [2-args.py](./2-args.py): This program prints out the number and list of its command line arguments using `sys.argv`. 
     * Output: The number of arguments followed by `argument` if one or `arguments` if more than one
+
+* **4. Infinite addition**
+    * [3-infinite_add.py](./3-infinite_add.py): This program prints out the result of the addition of all arguments in the command line
