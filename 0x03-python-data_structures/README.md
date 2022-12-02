@@ -21,10 +21,13 @@ The following are the objectives of this project:
   * [0-print_list_integer.py](./0-print_list_integer.py): Involves using the prototype function `def print_list_integer(my_list[])`to return a list that one iterate through and print each integer.
 
 * **1. Access to an element in a list**
-  * [1-element_at.py](./1-element_at.py): Uses the prototype function `def element_at(my_list, idx)` to accessing an element in a list using its index 
+  * [1-element_at.py](./1-element_at.py): Uses the prototype function `def element_at(my_list, idx)` to accessing an element in a list using its index.
 
 * **2. Replacing an element in a list**
-  * [2-replace_in_list.py](./2-replace_in_list.py): Uses the prototype function `def replace_in_list(my_list, idx, element)` to replace an element in a list
+  * [2-replace_in_list.py](./2-replace_in_list.py): Uses the prototype function `def replace_in_list(my_list, idx, element)` to replace an element in a list.
 
 * **3. Printing a list of integers in reverse**
-  * [3-print_reversed_list_integer.py](./3-print_reversed_list_integer.py): Uses the prototype function `def print_reversed_list_integer(my_list=[])` to reverse a list
+  * [3-print_reversed_list_integer.py](./3-print_reversed_list_integer.py): Uses the prototype function `def print_reversed_list_integer(my_list=[])` to reverse a list.
+
+* **4. Replace in a copy**
+  * [4-new_in_list.py](./4-new_in_list.py): Involves copying a list and replacing an element in it without altering the original list. The prototype function `def new_in_list(my_list, idx, element)` is used.
