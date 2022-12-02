@@ -14,8 +14,7 @@ The following are the objectives of this project:
 * Understanding sequence packing
 * What is the `del` statement and how to use it
 
-
-<h2 align='centre'>Tasks involved :page_with_curl:</h2>
+<h2 align='center'>Tasks involved :page_with_curl:</h2>
 
 * **0. Printing a list of integers**
   * [0-print_list_integer.py](./0-print_list_integer.py): Involves using the prototype function `def print_list_integer(my_list[])`to return a list that one iterate through and print each integer.
@@ -31,3 +30,6 @@ The following are the objectives of this project:
 
 * **4. Replace in a copy**
   * [4-new_in_list.py](./4-new_in_list.py): Involves copying a list and replacing an element in it without altering the original list. The prototype function `def new_in_list(my_list, idx, element)` is used.
+
+* **5. Can you C me now?**
+  * [5-no_c.py](./5-no_c.py): This file removes the characters `c` and `C` from a string and returns the new string. The prototype function used is `def no_c(my_string)`
