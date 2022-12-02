@@ -18,7 +18,7 @@ if __name__ == '__main__':
     operators = {"+": add, "-": sub, "*": mul, "/": div}
 
     if sys.argv[2] not in operators.keys():
-        print('Unknown operator. Available operator: +. - , * and /')
+        print('Unknown operator. Available operator: +, -, * and /')
 
         sys.exit(1)
 
