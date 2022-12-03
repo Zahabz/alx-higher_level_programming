@@ -45,3 +45,6 @@ The following are the objectives of this project:
 
 * **9. Find the max**
   * [9-max_integer.py](9-max_integer.py): This program traverses a list and returns the maximum value in it. `def max_integer(my_list=[])` is the prototype function used.
+
+* **10. Only by 2**
+  * [10-divisible_by_2.py](10-divisible_by_2.py): Checks if the values in a listare divisible by 2. Prototype function used: `def divisible_by_2(my_list=[])`
