@@ -51,3 +51,6 @@ The following are the objectives of this project:
 
 * **11. Delete at**
   * [11-delete_at.py](11-delete_at.py): Deletes an element in a particular index of a list. The prototype function is `def delete_at(my_list=[], idx=0)`.
+
+* **12. Switching values of variables**
+  * [12-switch.py](12-switch.py): Involves switching the value of two variables a and b
