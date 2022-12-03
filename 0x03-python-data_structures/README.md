@@ -39,3 +39,6 @@ The following are the objectives of this project:
 
 * **7. Tuples addition**
   * [7-add_tuple.py](./7-add_tuple.py): Returns a tuple with two integers whereby the first element is the addition of the first element of each of the tuples whose sum is to be computed. The prototype function used is `def add_tuple(tuple_a=(), tuple_b=()):`
+
+* **8.More returns**
+  * [8-multiple_returns.py](8-multiple_returns.py): Consists of a function that returns a tuple whose content consists of the length of a string and its first character. The prototype function used in this python program is `def multiple_returns(sentence)`
