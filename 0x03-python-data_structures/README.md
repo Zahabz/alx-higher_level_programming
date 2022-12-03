@@ -34,11 +34,14 @@ The following are the objectives of this project:
 * **5. Can you C me now?**
   * [5-no_c.py](./5-no_c.py): This file removes the characters `c` and `C` from a string and returns the new string. The prototype function used is `def no_c(my_string)`.
 
-* **6.List of lists == Matrix**
+* **6. List of lists == Matrix**
   * [6-print_matrix_integer.py](./6-print_matrix_integer.py): Prints out the integers inside a matrix using the prototype function `def print_matrix_integer(matrix=[[]]):`.
 
 * **7. Tuples addition**
   * [7-add_tuple.py](./7-add_tuple.py): Returns a tuple with two integers whereby the first element is the addition of the first element of each of the tuples whose sum is to be computed. The prototype function used is `def add_tuple(tuple_a=(), tuple_b=()):`
 
-* **8.More returns**
-  * [8-multiple_returns.py](8-multiple_returns.py): Consists of a function that returns a tuple whose content consists of the length of a string and its first character. The prototype function used in this python program is `def multiple_returns(sentence)`
+* **8. More returns**
+  * [8-multiple_returns.py](8-multiple_returns.py): Consists of a function that returns a tuple whose content consists of the length of a string and its first character. The prototype function used in this python program is `def multiple_returns(sentence)`.
+
+* **9. Find the max**
+  * [9-max_integer.py](9-max_integer.py): This program traverses a list and returns the maximum value in it. `def max_integer(my_list=[])` is the prototype function used.
