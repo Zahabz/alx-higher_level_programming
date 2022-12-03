@@ -32,4 +32,7 @@ The following are the objectives of this project:
   * [4-new_in_list.py](./4-new_in_list.py): Involves copying a list and replacing an element in it without altering the original list. The prototype function `def new_in_list(my_list, idx, element)` is used.
 
 * **5. Can you C me now?**
-  * [5-no_c.py](./5-no_c.py): This file removes the characters `c` and `C` from a string and returns the new string. The prototype function used is `def no_c(my_string)`
+  * [5-no_c.py](./5-no_c.py): This file removes the characters `c` and `C` from a string and returns the new string. The prototype function used is `def no_c(my_string)`.
+
+* **6.List of lists == Matrix**
+  * [6-print_matrix_integer.py](./6-print_matrix_integer.py): Prints out the integers inside a matrix using the prototype function `def print_matrix_integer(matrix=[[]]):`.
