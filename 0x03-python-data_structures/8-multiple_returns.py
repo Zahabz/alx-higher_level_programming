@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 def multiple_returns(sentence):
+    mul_tuple = ()
     if sentence == '':
         sentence[0] = None
     else:
