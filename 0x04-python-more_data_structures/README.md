@@ -60,4 +60,7 @@ At the end of this project, a student was expected to explain:
   * [12-roman_to_int.py](12-roman_to_int.py): Uses the prototype function `def roman_to_int(roman_string):` to convert a roman number to its integer equivalent.
 
 * **14. Weighted average**
-  * [100-weight_average.py](100-weight_average.py): Leverages the prototype function `def weight_average(my_list=[]):` to compute the weighted average of integers contained in a list.     	
+  * [100-weight_average.py](100-weight_average.py): Leverages the prototype function `def weight_average(my_list=[]):` to compute the weighted average of integers contained in a list.
+
+* **15. Squared using map**
+  * [101-square_matrix.py](101-square_matrix.py): Uses the map function to square the elements of a matrix and squaring each one of them. The function prototype used is `def square_matrix_map(matrix=[]):`.     	
