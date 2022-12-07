@@ -54,3 +54,6 @@ The following are the objectives of this project:
 
 * **12. Switching values of variables**
   * [12-switch.py](12-switch.py): Involves switching the value of two variables a and b
+
+* **13. Linked list palindrome**
+  * [13-is_palindrome.c](./13-is_palindrome.c): This file, using the prototype function `int is_palindrome(listint_t **head)` traverses a linked list and checks if it is a palindrome. 
