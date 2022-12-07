@@ -56,4 +56,7 @@ The following are the objectives of this project:
   * [12-switch.py](12-switch.py): Involves switching the value of two variables a and b
 
 * **13. Linked list palindrome**
-  * [13-is_palindrome.c](./13-is_palindrome.c): This file, using the prototype function `int is_palindrome(listint_t **head)` traverses a linked list and checks if it is a palindrome. 
+  * [13-is_palindrome.c](./13-is_palindrome.c): This file, using the prototype function `int is_palindrome(listint_t **head)` traverses a linked list and checks if it is a palindrome.
+
+* **14. CPython**
+  * [100-print_python_list_info.c](100-print_python_list_info.c): CPython is used in this case to print basic information about lists e.g. list length using the prototype function `void print_python_list_info(PyObject *p);`
