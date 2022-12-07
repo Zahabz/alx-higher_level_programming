@@ -36,4 +36,7 @@ At the end of this project, a student was expected to explain:
   * [4-only_diff_elements.py](4-only_diff_elements.py): Returns elements present only in one set using the prototype function `def only_diff_elements(set_1, set_2`.
 
 * **6. Set operations 3**
-  * [5-number_keys.py](5-number_keys.py): Returns the number of keys in a dictionary using the prototype function `def number_keys(a_dictionary`.	
+  * [5-number_keys.py](5-number_keys.py): Returns the number of keys in a dictionary using the prototype function `def number_keys(a_dictionary`.
+
+* **7. Number of dictionary keys**
+  * [6-print_sorted_dictionary](6-print_sorted_dictionary): Returns an ordered dictionary based solely on its keys using the prototype function `def print_sorted_dictionary`. 	
