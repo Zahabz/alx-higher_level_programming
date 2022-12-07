@@ -51,4 +51,7 @@ At the end of this project, a student was expected to explain:
   * [9-multiply_by_2.py](9-multiply_by_2.py): Contains a function that multiplies all dictionary values by 2 and returns a new dictionary. THe prototype function used is `def multiply_by_2(a_dictionary):`.
 
 * **11. Largest value in dictionary**
-  * [10-best_score.py](10-best_score.py): Returns the key holding the greatest value in te dictionary. The prototype function used is `def best_score(a_dictionary):`. 	
+  * [10-best_score.py](10-best_score.py): Returns the key holding the greatest value in te dictionary. The prototype function used is `def best_score(a_dictionary):`.
+
+* **12. Using the map function**
+  * [11-multiply_list_map](11-multiply_list_map): Contains a prototype function `def multiply_list_map(my_list=[], number=0):` that multiplies each element of a list with a particular number and returns a new list. 	
