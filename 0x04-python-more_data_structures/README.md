@@ -30,4 +30,7 @@ At the end of this project, a student was expected to explain:
   * [2-uniq_add.py](2-uniq_add.py): Adds all unique integers in a list excluding their duplicates. The prototype function used is `def uniq_add(my_list=[]):`.
 
 * **4. Set operation 1**
-  * [3-common_elements](3-common_elements): Returns a set of common elements in two sets using the function `def common_elements(set_1, set_2):`.	
+  * [3-common_elements](3-common_elements): Returns a set of common elements in two sets using the function `def common_elements(set_1, set_2):`.
+
+* **5. Set operation 2**
+  * [4-only_diff_elements.py](4-only_diff_elements.py): Returns elements present only in one set using the prototype function `def only_diff_elements(set_1, set_2`.	
