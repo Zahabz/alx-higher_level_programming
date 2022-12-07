@@ -48,4 +48,7 @@ At the end of this project, a student was expected to explain:
   * [8-simple_delete.py](8-simple_delete.py): Consists of a function that deletes a key from a dictionary. The prototype function used is `def simple_delete(a_dictionary, key=""):`.
 
 * **10. Multiplication of dictionary values by a number**
-  * [9-multiply_by_2.py](9-multiply_by_2.py): Contains a function that multiplies all dictionary values by 2 and returns a new dictionary. THe prototype function used is `def multiply_by_2(a_dictionary):`. 	
+  * [9-multiply_by_2.py](9-multiply_by_2.py): Contains a function that multiplies all dictionary values by 2 and returns a new dictionary. THe prototype function used is `def multiply_by_2(a_dictionary):`.
+
+* **11. Largest value in dictionary**
+  * [10-best_score.py](10-best_score.py): Returns the key holding the greatest value in te dictionary. The prototype function used is `def best_score(a_dictionary):`. 	
