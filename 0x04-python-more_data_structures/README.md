@@ -42,4 +42,7 @@ At the end of this project, a student was expected to explain:
   * [6-print_sorted_dictionary](6-print_sorted_dictionary): Returns an ordered dictionary based solely on its keys using the prototype function `def print_sorted_dictionary`.
 
 * **8. Updating a dictionary**
-  * [7-update_dictionary.py](7-update_dictionary.py): Replaces or adds a key and its value to a dictionary or updates it. The prototype function used is `def update_dictionary(a_dictionary, key, value):` 	
+  * [7-update_dictionary.py](7-update_dictionary.py): Replaces or adds a key and its value to a dictionary or updates it. The prototype function used is `def update_dictionary(a_dictionary, key, value):`
+
+* **9. Deletion of a key in a dictionary**
+  * [8-simple_delete.py](8-simple_delete.py): Consists of a function that deletes a key from a dictionary. The prototype function used is `def simple_delete(a_dictionary, key=""):`.  	
