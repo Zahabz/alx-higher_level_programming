@@ -33,4 +33,7 @@ At the end of this project, a student was expected to explain:
   * [3-common_elements](3-common_elements): Returns a set of common elements in two sets using the function `def common_elements(set_1, set_2):`.
 
 * **5. Set operation 2**
-  * [4-only_diff_elements.py](4-only_diff_elements.py): Returns elements present only in one set using the prototype function `def only_diff_elements(set_1, set_2`.	
+  * [4-only_diff_elements.py](4-only_diff_elements.py): Returns elements present only in one set using the prototype function `def only_diff_elements(set_1, set_2`.
+
+* **6. Set operations 3**
+  * [5-number_keys.py](5-number_keys.py): Returns the number of keys in a dictionary using the prototype function `def number_keys(a_dictionary`.	
