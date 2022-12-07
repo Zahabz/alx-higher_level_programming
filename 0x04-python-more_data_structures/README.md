@@ -57,4 +57,7 @@ At the end of this project, a student was expected to explain:
   * [11-multiply_list_map](11-multiply_list_map): Contains a prototype function `def multiply_list_map(my_list=[], number=0):` that multiplies each element of a list with a particular number and returns a new list.
 
 * **13. Converting Roman numbers into integers**
-  * [12-roman_to_int.py](12-roman_to_int.py): Uses the prototype function `def roman_to_int(roman_string):` to convert a roman number to its integer equivalent.  	
+  * [12-roman_to_int.py](12-roman_to_int.py): Uses the prototype function `def roman_to_int(roman_string):` to convert a roman number to its integer equivalent.
+
+* **14. Weighted average**
+  * [100-weight_average.py](100-weight_average.py): Leverages the prototype function `def weight_average(my_list=[]):` to compute the weighted average of integers contained in a list.     	
