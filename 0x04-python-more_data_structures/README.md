@@ -63,4 +63,7 @@ At the end of this project, a student was expected to explain:
   * [100-weight_average.py](100-weight_average.py): Leverages the prototype function `def weight_average(my_list=[]):` to compute the weighted average of integers contained in a list.
 
 * **15. Squared using map**
-  * [101-square_matrix.py](101-square_matrix.py): Uses the map function to square the elements of a matrix and squaring each one of them. The function prototype used is `def square_matrix_map(matrix=[]):`.     	
+  * [101-square_matrix.py](101-square_matrix.py): Uses the map function to square the elements of a matrix and squaring each one of them. The function prototype used is `def square_matrix_map(matrix=[]):`.
+
+* **16. Deleting by value**
+  * [102-complex_delete.py](102-complex_delete.py): The prototype function used is `def complex_delete(a-dictionary, value)`. This function deletes all keys in the dictionary containing a particular value.   	
