@@ -39,4 +39,7 @@ At the end of this project, a student was expected to explain:
   * [5-number_keys.py](5-number_keys.py): Returns the number of keys in a dictionary using the prototype function `def number_keys(a_dictionary`.
 
 * **7. Number of dictionary keys**
-  * [6-print_sorted_dictionary](6-print_sorted_dictionary): Returns an ordered dictionary based solely on its keys using the prototype function `def print_sorted_dictionary`. 	
+  * [6-print_sorted_dictionary](6-print_sorted_dictionary): Returns an ordered dictionary based solely on its keys using the prototype function `def print_sorted_dictionary`.
+
+* **8. Updating a dictionary**
+  * [7-update_dictionary.py](7-update_dictionary.py): Replaces or adds a key and its value to a dictionary or updates it. The prototype function used is `def update_dictionary(a_dictionary, key, value):` 	
