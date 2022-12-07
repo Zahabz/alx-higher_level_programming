@@ -54,4 +54,7 @@ At the end of this project, a student was expected to explain:
   * [10-best_score.py](10-best_score.py): Returns the key holding the greatest value in te dictionary. The prototype function used is `def best_score(a_dictionary):`.
 
 * **12. Using the map function**
-  * [11-multiply_list_map](11-multiply_list_map): Contains a prototype function `def multiply_list_map(my_list=[], number=0):` that multiplies each element of a list with a particular number and returns a new list. 	
+  * [11-multiply_list_map](11-multiply_list_map): Contains a prototype function `def multiply_list_map(my_list=[], number=0):` that multiplies each element of a list with a particular number and returns a new list.
+
+* **13. Converting Roman numbers into integers**
+  * [12-roman_to_int.py](12-roman_to_int.py): Uses the prototype function `def roman_to_int(roman_string):` to convert a roman number to its integer equivalent.  	
