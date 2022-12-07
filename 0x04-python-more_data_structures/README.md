@@ -24,4 +24,7 @@ At the end of this project, a student was expected to explain:
   * [0-square_matrix_simple.py](0-square_matrix_simple.py): In this task, the prototype function `def square_matrix_simple(matrix=[]):` will be used to find the square of each value in the matrix.
 
 * **2. Search and replace**
-  * [1-search_replace.py](1-search_replace.py): This python file replaces all occurrences of a particular element with another in a **new list**. The prototype function used is `def search_replace(my_list, search, replace):` 	
+  * [1-search_replace.py](1-search_replace.py): This python file replaces all occurrences of a particular element with another in a **new list**. The prototype function used is `def search_replace(my_list, search, replace):`
+
+* **3. Unique addition**
+  * [2-uniq_add.py](2-uniq_add.py): Adds all unique integers in a list excluding their duplicates. The prototype function used is `def uniq_add(my_list=[]):`.  	
