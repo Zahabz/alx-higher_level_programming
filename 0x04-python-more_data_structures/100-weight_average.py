@@ -12,4 +12,4 @@ def weight_average(my_list=[]):
                 total += tuple_mul
                 total2 += my_list[i][1]
         
-        return (total / total2)
+        return float(total / total2)
