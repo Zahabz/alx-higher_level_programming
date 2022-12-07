@@ -20,5 +20,8 @@ At the end of this project, a student was expected to explain:
 
 ## Tasks involved :page with curl:
 
-* **1.Finding the squares of integers in a matrix**
-  * [0-square_matrix_simple.py](0-square_matrix_simple.py): In this task, the prototype function `def square_matrix_simple(matrix=[]):` will be used to find the square of each value in the matrix. 	
+* **1. Finding the squares of integers in a matrix**
+  * [0-square_matrix_simple.py](0-square_matrix_simple.py): In this task, the prototype function `def square_matrix_simple(matrix=[]):` will be used to find the square of each value in the matrix.
+
+* **2. Search and replace**
+  * [1-search_replace.py](1-search_replace.py): This python file replaces all occurrences of a particular element with another in a **new list**. The prototype function used is `def search_replace(my_list, search, replace):` 	
