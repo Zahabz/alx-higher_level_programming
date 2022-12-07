@@ -27,4 +27,7 @@ At the end of this project, a student was expected to explain:
   * [1-search_replace.py](1-search_replace.py): This python file replaces all occurrences of a particular element with another in a **new list**. The prototype function used is `def search_replace(my_list, search, replace):`
 
 * **3. Unique addition**
-  * [2-uniq_add.py](2-uniq_add.py): Adds all unique integers in a list excluding their duplicates. The prototype function used is `def uniq_add(my_list=[]):`.  	
+  * [2-uniq_add.py](2-uniq_add.py): Adds all unique integers in a list excluding their duplicates. The prototype function used is `def uniq_add(my_list=[]):`.
+
+* **4. Set operation 1**
+  * [3-common_elements](3-common_elements): Returns a set of common elements in two sets using the function `def common_elements(set_1, set_2):`.	
