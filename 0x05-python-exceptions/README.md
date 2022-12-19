@@ -5,7 +5,7 @@
 The following were the objectives of this project:
   * Identifying the difference between errors and exceptions
   * When to use exceptions
-  * How to corectly handle an exception
+  * How to correctly handle an exception
   * Learning the purpose of catching exceptions
   * How to raise a builtin exception
   * When to implement a clean-up action after an exception
