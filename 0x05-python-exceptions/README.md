@@ -1,6 +1,6 @@
 # 0x05. Python - Exceptions
 
-## Learning projects
+## Learning objectives
 
 The following were the objectives of this project:
   * Identifying the difference between errors and exceptions
@@ -13,5 +13,6 @@ The following were the objectives of this project:
 ## Prototype functions :floppy_disk:
 
 |       File           |             Prototype function              |  
- ---------------------- ---------------------------------------------
-|0-safe_print_list.py  | `def safe_print_list(my_list=[], x=0)`      |
+|----------------------|---------------------------------------------|
+|`0-safe_print_list.py`| `def safe_print_list(my_list=[], x=0):`     |
+|`1-safe_print_integer.py`|`def safe_print_integer(value):`          |
