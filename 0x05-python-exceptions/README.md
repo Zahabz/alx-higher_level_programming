@@ -18,4 +18,5 @@ The following were the objectives of this project:
 |`1-safe_print_integer.py`|`def safe_print_integer(value):`          |
 |`2-safe_print_list_integers.py`| `def safe_print_list_integers(my_list=[], x=0`|
 |`3-safe_print_division.py`| `def safe_print_division.py(a,b):`|
-| `4-list_division.py`| `def list_division(my_list_1, my_list_2, list_length:`|
+|`4-list_division.py`| `def list_division(my_list_1, my_list_2, list_length:`|
+|`5-raise_exception.py`|`def raise_exception():`|
