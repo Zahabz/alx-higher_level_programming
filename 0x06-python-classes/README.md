@@ -21,3 +21,16 @@ The following were the objectives of this project:
 * What is the `__dict__` of a class and/or instance of a class and what does it contain
 * How does Python find the attributes of an object or class
 * How to use the `getattr` function
+
+
+## Tasks to be completed :page_with_curl:
+
+* **0. My first square**
+  * [0-square.py](0-square.py): Defines an empty class `Square`
+
+* **1. Square with size**
+  * [1-square.py](1-square.py): Involves creating a class `Square` that defines a square (based on [0-square.py](0-square.py)) with a private instance attribute
+`size`
+
+* **2. Size validation**
+  * [2-square.py](2-square.py):
