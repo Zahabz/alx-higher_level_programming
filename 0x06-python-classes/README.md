@@ -36,6 +36,12 @@ The following were the objectives of this project:
   * [2-square.py](2-square.py): Defines a square by private instance attribute,
 instantiation with optional `size`: `def __init__(self, size=0):`.
 
+* **3. Area of a square**
+  * [3-square.py](3-square.py) defines a square by:
+      * Private instance attribute `size`
+      * Instantiation with optional `size`: `def __init__(self, size=0):`
+      * Public instance method: `def area(self):`
+
 
 
 
