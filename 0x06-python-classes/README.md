@@ -33,4 +33,12 @@ The following were the objectives of this project:
 `size`
 
 * **2. Size validation**
-  * [2-square.py](2-square.py):
+  * [2-square.py](2-square.py): Defines a square by private instance attribute,
+instantiation with optional `size`: `def __init__(self, size=0):`.
+
+
+
+
+
+
+
