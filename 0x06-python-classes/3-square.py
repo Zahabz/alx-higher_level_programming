@@ -7,17 +7,14 @@ class Square:
     A class to represent a square.
 
     Attributes:
-       - size (int): Represents the square size.
-
-    Methods:
-       - area(self): Returns the area of the square. 
+        size (int): Defines the square size.
     """
     def __init__(self, size):
         """
-        Constructs the necessary attributes, in this case size, for the square object.
+        Constructs the necessary attributes for the Square object.
 
         Args:
-           - size (int): An integer that represents the size of the square.
+            size (int): Represents the square size of the Square object.
         """
         if not isinstance(size, int):
             raise TypeError('size must be an integer')
@@ -34,7 +31,7 @@ class Square:
             None.
 
         Returns:
-            - returns the area of the Square object when called.
+            returns the area of the Square object when called.
         """
         return (self.__size * self.__size)
 
