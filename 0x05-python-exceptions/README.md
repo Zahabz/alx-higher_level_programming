@@ -1,6 +1,6 @@
 # 0x05. Python - Exceptions
 
-## Learning objectives
+## Learning objectives :dart:
 
 The following were the objectives of this project:
   * Identifying the difference between errors and exceptions
