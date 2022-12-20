@@ -42,6 +42,14 @@ instantiation with optional `size`: `def __init__(self, size=0):`.
       * Instantiation with optional `size`: `def __init__(self, size=0):`
       * Public instance method: `def area(self):`
 
+* **4. Access and update private attribute**
+  * [4-square.py](4-square.py) defines a square by:
+      * Private instance attribute `size`:
+           * property `def size(self):`: Retrieval of size
+           * property setter `def size(self,value):`: Setting size value
+      * Instantiation of optional `size`: `def __init__(self, size=0):`
+      * Public instance method `def area(self):`: Returns the area of Square object 
+
 
 
 
