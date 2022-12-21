@@ -60,7 +60,26 @@ instantiation with optional `size`: `def __init__(self, size=0):`.
       * Public instance method: `def my_print(self):` that prints in stdout the square with the character`#`:
            * if `size` is equal to 0, print an empty line
 	
+* **6. Coordinates of a square**
+  * [6-square.py](6-square.py) defines a square by:
+      * Private instance attribute `size`:
+           * property `def size(self):`: Size retrieval
+           * property setter `def size(self, value):`: Setting size value
+      * Instantiation of optional `size`: `def __init__(self, size=0):`
+      * Public instance method: `def area(self):`: Returns the area of the Square object
+      * Public instance method: `def my_print(self):` that prints in stdout the square with the character `#`:
+           * if `size` is equal to 0, print an empty line
 
+* **7. Printing Square instance**
+  * [101-square.py](101-square.py) defines a square by:
+      * Private instance attribute `size`:
+           * property `def size(self):`: Size retrieval
+           * property setter `def size(self, value):`: Setting size value
+      * Instantiation of optional `size`: `def __init__(self, size=0):`
+      * Public instance method: `def area(self):`: Returns the area of the Square object
+      * Public instance method: `def my_print(self):` that prints in stdout the square with the character `#`:
+           * if `size` is equal to 0, print an empty line
+      * Printing a string representation of the Square object using `def __str__(self):`
 
 
 
