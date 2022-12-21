@@ -121,7 +121,3 @@ class Square:
 
                 print('')
 
-try:
-    my_square = Square(3, "Position")
-except Exception as e:
-    print(e)
