@@ -11,7 +11,7 @@ class Square:
         position(tuple): Defines the coordinates of position (0,0) of the square.
     """
 
-    def __init__(self, size=0, position=(0,0)):
+    def __init__(self, size=0, position=(0, 0)):
         """
         Constructs the necessary attributes for the Square object.
 
@@ -20,8 +20,8 @@ class Square:
             position(tuple(int, int)): Represents the position of (0,0) of the Square object in the Cartesian plane.
         """
         
-        self.__position = position
-        self.__size = size
+        self.position = position
+        self.size = size
 
     def area(self):
         """
@@ -91,7 +91,7 @@ class Square:
         Returns:
             None.
         """
-        if (not isinstance(num, int) for num in value) or (len(value) != 2) or (not all(num >= 0 for num in value)) or (not isinstance(value, tuple)):
+        if (not all(isinstance(num, int) for num in value) or len(value) != 2 or not all(num >= 0 for num in value) or not isinstance(value, tuple)):
             raise TypeError('position must be a tuple of 2 positive integers')
 
         self.__position = value
@@ -121,3 +121,7 @@ class Square:
 
                 print('')
 
+try:
+    my_square = Square(3, "Position")
+except Exception as e:
+    print(e)
