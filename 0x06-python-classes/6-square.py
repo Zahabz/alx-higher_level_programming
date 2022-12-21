@@ -20,8 +20,8 @@ class Square:
             position(tuple(int, int)): Represents the position of (0,0) of the Square object in the Cartesian plane.
         """
         
-        self.position = position
-        self.size = size
+        self.__position = position
+        self.__size = size
 
     def area(self):
         """
