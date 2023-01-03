@@ -123,3 +123,20 @@ class Rectangle:
             Perimeter of Rectangle object/instance
         """
         return (self.__width + self.__height) * 2
+
+    def __str__(self):
+        """
+        Returns an informal string representation of the REctangle object
+
+        Args:
+        -----
+            None
+
+        Returns:
+        --------
+            Rectangle object  made up of hash marks
+        """
+        if self.__width == 0 or self.__height == 0:
+            return ''
+        else:
+            return '\n'.join('#' * self.__width for y in range(self.__height))
