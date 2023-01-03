@@ -8,7 +8,8 @@ class Rectangle:
 
     Class attributes:
     -----------------
-        number_of_instances(int): Stores the number of class instances as an integer. 
+        number_of_instances(int): Stores the number of class instances as an integer.
+        print_symbol(str): Symbol used to produce the string repesentation of the Rectangle Object 
 
     Instance Attributes
     -------------------
