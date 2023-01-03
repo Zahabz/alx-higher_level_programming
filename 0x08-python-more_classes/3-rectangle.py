@@ -22,8 +22,8 @@ class Rectangle:
             height(int): Represents the height of the Rectangle object.
 
         """
-        self.width = width
-        self.height = height
+        self.__width = width
+        self.__height = height
 
     @property
     def width(self):
@@ -37,7 +37,7 @@ class Rectangle:
         Returns
         -------
             Private Instance attribute `width`.
-            
+
         """
         return self.__width
 
@@ -96,3 +96,30 @@ class Rectangle:
 
         self.__height = value
 
+    def area(self):
+        """
+        Returns the area of the Rectangle object
+
+        Args:
+        -----
+            None
+
+        Returns:
+        --------
+            Area of Rectangle object
+        """
+        return self.__width * self.__height
+
+    def perimeter(self):
+        """
+        Returns the perimeter of the Rectangle object
+
+        Args:
+        -----
+            None
+
+        Returns:
+        --------
+            Perimeter of Rectangle object/instance
+        """
+        return (self.__width + self.__height) * 2
