@@ -33,7 +33,7 @@ class Square:
         Returns:
             Area of the Square object.
         """
-        return self.size ** 2
+        return self.__size ** 2
 
     @property
     def size(self):
@@ -47,6 +47,7 @@ class Square:
             The size attribute of the Square instance.
         """
         return self.__size
+
 
     @size.setter
     def size(self, value):
@@ -96,48 +97,27 @@ class Square:
 
         self.__position = value
 
-    def my_print(self):
-        """
-        Prints out a square using hashmarks '#' at a position (x, y).
 
+    def __gt__(self, other):
+        """Checks whether one instance is greater when compared to another"""
+        return self.area() > other.area()
 
-        Args:
-            None.
+    def __lt__(self, other):
+        """Maps the < operator to the Square instances beig compared"""
+        return self.area() < other.area()
+        
+    def __le__(self, other):
+        """Maps the <= operator to the Square instances beig compared"""
+        return self.area() <= other.area()
 
-        Returns:
-            None.
-        """
+    def __eq__(self, other):
+        """Maps the == operator to the Square instances beig compared"""
+        return self.area() == other.area()
+        
+    def __ge__(self, other):
+        """Maps the >= operator to the Square instances beig compared"""
+        return self.area() >= other.area()
 
-        for y in range(self.__position[1]):
-            print("")
-
-        if self.__size == 0:
-            print("")
-        else:
-            for i in range(self.__size):
-                for x in range(self.__position[0]):
-                    print(' ', end='')
-                for j in range(self.__size):
-                    print('#', end='')
-
-                print('')
-
-    def __str__(self):
-        """
-         A magic method that prints a string representation of the Square object/instance
-
-        """
-
-        if self.__size != 0:
-            for y in range(self.__position[1]):
-                print("")
-            for i in range(self.__size):
-                for x in range(self.__position[0]):
-                    print(' ', end='')
-                for j in range(self.__size):
-                    print('#', end='')
-                if i != self.__size - 1:
-                    print('')
-
-        return ("")
-
+    def __ne__(self, other):
+        """Maps the != operator to the Square instances beig compared"""
+        return self.area() != other.area()
