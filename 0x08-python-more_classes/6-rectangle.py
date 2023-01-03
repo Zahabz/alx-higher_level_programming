@@ -6,11 +6,16 @@ class Rectangle:
     """
     A class that represents a Rectangle
 
+    Class attributes:
+    -----------------
+        number_of_instances(int): Stores the number of class instances as an integer. 
+
     Attributes
     ----------
         width(int): Defines the width of the rectangle.
         height(int): Defines the height of the rectangle.
     """
+    number_of_instances = 0
 
     def __init__(self, width=0, height=0):
         """
@@ -24,6 +29,7 @@ class Rectangle:
         """
         self.__width = width
         self.__height = height
+        Rectangle.number_of_instances += 1
 
     @property
     def width(self):
@@ -112,7 +118,7 @@ class Rectangle:
 
     def perimeter(self):
         """
-        Returns the perimeter of the Rectangle object if both height and width are greater than 0 else zero
+        Returns the perimeter of the Rectangle object if both height and width are greater than 0 else zero 
 
         Args:
         -----
@@ -171,4 +177,6 @@ class Rectangle:
         --------
           - A string object to signify deletion
         """
+        Rectangle.number_of_instances -= 1
         print('Bye rectangle...')
+

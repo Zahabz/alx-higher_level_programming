@@ -112,7 +112,7 @@ class Rectangle:
 
     def perimeter(self):
         """
-        Returns the perimeter of the Rectangle object
+        Returns the perimeter of the Rectangle object if both height and width are greater than 0 else zero
 
         Args:
         -----
