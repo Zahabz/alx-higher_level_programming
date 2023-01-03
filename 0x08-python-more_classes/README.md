@@ -52,5 +52,18 @@
       * Instantiation with optional `width` and `height`: `def __init__(self, width=0, height=0)`
       * Public instance method: `def area(self):`: Returns the area of the rectangle
       * Public instance method: `def perimeter(self):`: Returns the rectangle`s perimeter 
+
+* **3. String representation**
+  * [3-rectangle.py](./3-rectangle.py) defines a rectangle by:
+      * Private instance attribute `width`:
+           * property `def width(self):`: Width retrieval
+           * property setter `def width(self, value):`: Setting width value
+      * Private instance attribute `height`:
+           * property `def height(self):`: Height retrieval
+           * property setter `def height(self, value):`: Setting height value
+      * Instantiation with optional `width` and `height`: `def __init__(self, width=0, height=0)`
+      * Public instance method: `def area(self):`: Returns the area of the rectangle
+      * Public instance method: `def perimeter(self):`: Returns the rectangle`s perimeter
+      * Use of the magic method `def __str__(self):` to print an informal string representation of the Rectangle object.
  
 
