@@ -22,8 +22,8 @@ class Rectangle:
             height(int): Represents the height of the Rectangle object.
 
         """
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
@@ -122,4 +122,7 @@ class Rectangle:
         --------
             Perimeter of Rectangle object/instance
         """
+        if self.__width == 0 or self.__height == 0:
+            return 0
+
         return (self.__width + self.__height) * 2
