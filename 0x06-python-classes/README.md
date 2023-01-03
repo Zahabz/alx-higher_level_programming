@@ -81,7 +81,14 @@ instantiation with optional `size`: `def __init__(self, size=0):`.
            * if `size` is equal to 0, print an empty line
       * Printing a string representation of the Square object using `def __str__(self):`
 
-
-
-
+* **8. Compare 2 squares**
+  * [102-square.py](102-square.py) defines a square by:
+      **Private instance attribute `size`:
+           * property `def size(self):`: Size retrieval
+           * property setter `def size(self, value):`: Setting size value
+      * Instantiation of optional `size`: `def __init__(self, size=0):`
+      * Public instance method: `def area(self):`: Returns the area of the Square object
+      * Public instance method: `def my_print(self):` that prints in stdout the square with the character `#`:
+           * if `size` is equal to 0, print an empty line
+      * `Square` instance can answer to comparison operators such as `==`, `>=` or `<` among others based on area.
 
