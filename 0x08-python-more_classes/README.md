@@ -26,5 +26,19 @@
 * What is a class method
 * What is a static method
 
+## Tasks to be undertaken :page_with_curl;
 
+* **0. Simple Rectangle**
+  * [0-rectangle.py](./0-rectangle.py): defines an empty `Rectangle` class
+
+* **1. Rectangle definition**
+  * [1-rectangle.py](./1-rectangle.py) defines a rectangle by:
+      * Private instance attribute `width`:
+           * property `def width(self):`: Width retrieval
+           * property setter `def width(self, value):`: Setting width value
+      * Private instance attribute `height`:
+           * property `def height(self):`: Height retrieval
+           * property setter `def height(self, value):`: Setting height value
+      * Instantiation with optional `width` and `height`: `def __init__(self, width=0, height=0)` 
+ 
 
