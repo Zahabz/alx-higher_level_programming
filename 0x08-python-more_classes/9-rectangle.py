@@ -209,4 +209,19 @@ class Rectangle:
             return rect_2
         elif area_2 == area_1:
             return rect_1
+ 
+    @classmethod
+    def square(cls, size=0):
+        """
+        Returns a new Rectangle instance that converts it to a square
+
+        Args:
+        -----
+          - size(int): The value to be set equal to width and height
+
+        Returns:
+        --------
+          - Square object
+        """
+        return cls(size, size)
 
