@@ -96,9 +96,3 @@ class Rectangle:
 
         self.__height = value
 
-
-sqObj = Rectangle(9, 8)
-sqObj.height = 9
-sqObj.width = 8
-
-print(sqObj.__dict__)
