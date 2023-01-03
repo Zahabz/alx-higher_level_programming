@@ -127,4 +127,27 @@
       * Use of the magic method `def __str__(self):` to print an informal string representation of the Rectangle object.
       * Use of `__repr__` to return an official string representation of the `Rectangle` object and using the `eval()` to create a new class instance
       * Prints the message `Bye rectangle...` when an instance is deleted.
+
+* **8. Compare 2 rectangles**
+  * [8-rectangle.py](./8-rectangle.py) defines a rectangle by:
+      * Private instance attribute `width`:
+           * property `def width(self):`: Width retrieval
+           * property setter `def width(self, value):`: Setting width value
+      * Private instance attribute `height`:
+           * property `def height(self):`: Height retrieval
+           * property setter `def height(self, value):`: Setting height value
+      * Public class attribute `number_of_instances` that is initialized to 0 and increases or decreases upon ceation or deletion of an instance.
+      * Public class attribute `print_symbol` intialized to `#` and is used as the symbol for string representation.
+      * Instantiation with optional `width` and `height`: `def __init__(self, width=0, height=0)`
+      * Public instance method: `def area(self):`: Returns the area of the rectangle
+      * Public instance method: `def perimeter(self):`: Returns the rectangle`s perimeter
+      * Use of the magic method `def __str__(self):` to print an informal string representation of the Rectangle object.
+      * Use of `__repr__` to return an official string representation of the `Rectangle` object and using the `eval()` to create a new class instance
+      * Prints the message `Bye rectangle...` when an instance is deleted.
+      * Static method `def bigger_or_equal(rect_1, rect_2):` that returns the biggest rectangle based on the area
+           
+          * `rect_1` must be an instance of `Rectangle`, otherwise raise a `TypeError` exception with the message `rect_1 must be an instance of Rectangle`
+          * `rect_2` must be an instance of `Rectangle`, otherwise raise a `TypeError` exception with the message `rect_2 must be an instance of Rectangle`
+          * Returns `rect_1` if both have the same area value
+
      
