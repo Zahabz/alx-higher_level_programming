@@ -16,6 +16,7 @@ class Rectangle:
         height(int): Defines the height of the rectangle.
     """
     number_of_instances = 0
+    print_symbol = '#'
 
     def __init__(self, width=0, height=0):
         """
@@ -148,7 +149,7 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return ''
         else:
-            return '\n'.join('#' * self.__width for y in range(self.__height))
+            return '\n'.join(Rectangle.print_symbol * self.__width for y in range(self.__height))
 
     def __repr__(self):
         """
@@ -179,4 +180,3 @@ class Rectangle:
         """
         Rectangle.number_of_instances -= 1
         print('Bye rectangle...')
-
