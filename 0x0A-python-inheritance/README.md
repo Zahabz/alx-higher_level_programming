@@ -29,5 +29,9 @@
 	* Prototype function: `def is_same_class(obj, a_class):`
 
 * **3. Same class or inherit from**
-  * [3-is_kind_of_class.py](./3-is_kind_of_class.py) contains a function that returns `True` if `obj` is an instance of, or if the object is an instance of a class that inherited from the specified class; otherwise `False`
+  * [3-is_kind_of_class.py](./3-is_kind_of_class.py) contains a function that returns `True` if `obj` is an instance of, or if the object is an instance of a class that inherited from the specified class; otherwise `False`.
         * Prototype function: `def is_kind_of_class(obj, a_class):`
+
+*  **4. Only sub class of**
+   * [4-inherits_from.py](./4-inherits_from.py) contains a function that returns `True` if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise `False`.
+	* Prototype function: `def inherits_from(obj, a_class):`
