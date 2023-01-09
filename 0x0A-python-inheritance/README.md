@@ -17,5 +17,9 @@
 ## Tasks to be completed :page_with_curl:
 
 * **0. Lookup**
-  * Involves using the prototype function `def lookup(obj):` to return a list of available attributes and method of an object.
+  * [0-lookup.py](./0-lookup.py)Involves using the prototype function `def lookup(obj):` to return a list of available attributes and method of an object.
   * It also returns the result in a list.
+
+* **1. My list**
+  * [1-my_list.py](./1-my_list.py) contains a class `MyList` that inherits from list:
+  	* Public instance method: `def print_sorted(self):`: prints the list and sorts it in ascending order.
