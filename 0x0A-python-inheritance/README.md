@@ -35,3 +35,8 @@
 *  **4. Only sub class of**
    * [4-inherits_from.py](./4-inherits_from.py) contains a function that returns `True` if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise `False`.
 	* Prototype function: `def inherits_from(obj, a_class):`
+
+* **5. Geometry module**
+  * [5-base_geometry.py](./5-base_geometry.py) creates an empty class `BaseGeometry`
+
+
