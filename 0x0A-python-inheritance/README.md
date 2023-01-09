@@ -22,8 +22,12 @@
 
 * **1. My list**
   * [1-my_list.py](./1-my_list.py) contains a class `MyList` that inherits from list:
-  	* Public instance method: `def print_sorted(self):`: prints the list and sorts it in ascending order.
+        * Public instance method: `def print_sorted(self):`: prints the list and sorts it in ascending order.
 
 * **2. Exact same object**
   * [2-is_same_class.py](./2-is_same_class.py) contains a function that returns `True` if `obj` is exactly an instance of the specified class.
 	* Prototype function: `def is_same_class(obj, a_class):`
+
+* **3. Same class or inherit from**
+  * [3-is_kind_of_class.py](./3-is_kind_of_class.py) contains a function that returns `True` if `obj` is an instance of, or if the object is an instance of a class that inherited from the specified class; otherwise `False`
+        * Prototype function: `def is_kind_of_class(obj, a_class):`
