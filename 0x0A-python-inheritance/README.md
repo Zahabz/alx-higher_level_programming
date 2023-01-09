@@ -39,4 +39,6 @@
 * **5. Geometry module**
   * [5-base_geometry.py](./5-base_geometry.py) creates an empty class `BaseGeometry`
 
-
+* **6. Improve Geometry**
+  * [6-base_geometry.py](./6-base_geometry.py) containing:
+        * Public Instance method `def area(self):` that raises an `Exception` with the message `area() is not implemented`
