@@ -51,3 +51,9 @@
     	      * if `value` is not an integer: raise a `TypeError` exception, with the message `<name> must be an integer`
               * if `value` is less or equal to 0: raise a `ValueError` exception with the message `<name> must be greater than 0`
 
+* **8. Rectangle**
+  * [8-rectangle.py](./8-rectangle.py) contains class Rectangle that:
+	* Instantiation with `width` and `height`: `def __init__(self, width, height):`
+   	      * `width` and `height` must be private. No getter or setter
+              * `width` and `height` must be positive integers, validated by integer_validator
+
