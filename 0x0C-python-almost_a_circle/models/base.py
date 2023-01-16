@@ -75,6 +75,51 @@ class Base:
             list_json = cls.to_json_string(list_dictionaries)
             with open(filename, 'w') as f:
                 f.write(list_json)
+    
+    @staticmethod
+    def from_json_string(json_string):
+        """
+        Returns the list of the JSON string representation `json_string`
+
+        Args:
+        -----
+            json_string : str
+                string representation of list of dictionaries
+
+        Returns:
+        --------
+            list representation of json
+        """
+        if json_string is None or len(json_string) == 0:
+            return []
+        else:
+            new_list = json.loads(json_string)
+            return new_list
+
+    @classmethod
+    def create(cls, **dictionary):
+        """
+        Returns an instance with all attributes set
+
+        Args:
+        -----
+            dictionary : dict
+                Key word arguments
+
+        Returns:
+        --------
+            Instance with all attributes set
+        """
+        if dictionary or len(dictionary) != {}:
+
+            if cls.__name__ == 'Square':
+                obj = cls(2)
+            else:
+                obj = cls(3,2)
+
+            obj.update(**dictionary)
+            return obj
+
 
 
             
